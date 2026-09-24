@@ -1,0 +1,97 @@
+\documentclass[11pt, a4paper]{article}
+
+% ---------- Encoding & fonts ----------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}     % harmless on modern LaTeX; handles "Zúñiga"
+\usepackage[english]{babel}
+\usepackage[default]{lato}          % modern sans-serif body text
+\usepackage{sourcecodepro}          % matching monospace for code/R output
+\usepackage{newtxsf}                % sans-serif math to match the text
+\usepackage{microtype}          % better spacing/justification, almost free win
+
+% ---------- Page layout ----------
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing                 % common for assignments; remove for journal-style
+\usepackage{parskip}            % space between paragraphs instead of indents (optional)
+
+% ---------- Math, stats, tables ----------
+\usepackage{amsmath, amssymb}
+\usepackage{siunitx}            % aligned numbers, p-values, units
+\sisetup{round-mode=places, round-precision=3}
+\usepackage{booktabs}           % \toprule \midrule \bottomrule
+\usepackage{threeparttable}     % table notes (e.g. "* p < .05")
+\usepackage{multirow}
+
+% ---------- Figures & captions ----------
+\usepackage{graphicx}
+\graphicspath{{../figures/}}    % adjust to your results folder
+\usepackage{float}
+\usepackage[font=small, labelfont=bf]{caption}
+\usepackage{subcaption}
+
+% ---------- Headers & section styling ----------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small ADHD in Infants and Teens}
+\fancyhead[R]{\small A. Zúñiga}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+
+% ---------- Colors, links, references ----------
+\usepackage{xcolor}
+\definecolor{accent}{HTML}{1F4E79}
+\usepackage[style=apa, backend=biber]{biblatex}   % APA suits psychology/health
+\addbibresource{references.bib}
+\usepackage[colorlinks=true, linkcolor=accent, citecolor=accent, urlcolor=accent]{hyperref}
+\usepackage[capitalise, noabbrev]{cleveref}       % load after hyperref
+
+% ---------- Metadata ----------
+\title{\textbf{Statistical Analysis of ADHD in Infants and Teens}}
+\author{Alexis Zúñiga\\[2pt]\small EdgeHub | \small \href{mailto:alexis.zuniga@edgehub.edu.mx}{alexis.zuniga@edgehub.edu.mx}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+\noindent Background, objective, data, methods, key results, conclusion
+in about 150--250 words.
+\end{abstract}
+
+\noindent\textbf{Keywords:} ADHD, childhood, adolescence, statistical analysis, inferential-statistics, data analysis, R
+
+\section{Introduction}
+% Context, prior literature, gap, research questions / hypotheses
+\subsection{Research Questions}
+
+\section{Methods}
+\subsection{Data Source and Participants}
+\subsection{Variables}
+\subsection{Statistical Analysis}
+% Tests used, assumptions checked, significance level, software (R version, packages)
+
+\section{Results}
+\subsection{Descriptive Statistics}
+% See \cref{tab:descriptives}
+\subsection{Inferential Analysis}
+
+\section{Discussion}
+\subsection{Interpretation}
+\subsection{Limitations}
+
+\section{Conclusion}
+
+\printbibliography
+
+\appendix
+\section{Additional Tables and Figures}
+\section{Code and Reproducibility}
+
+\end{document}

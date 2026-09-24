@@ -1,0 +1,71 @@
+# Claude Code
+.claude/
+
+# File extensions
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.xdv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pytest_cache/
+*mypy_cache/
+*ruff_cache/
+
+# Folders
+data/raw/
+data/interim/
+
+# Temporary files
+*.tmp
+
+# Environment files
+.renv
+.env
+.venv
+env/
+venv/
+renv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+.virtual_documents/
+
+__marimo__/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj.user/
+
+# Editor / OS
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Secrets
+*.pem
+*.key
+credentials*.json
