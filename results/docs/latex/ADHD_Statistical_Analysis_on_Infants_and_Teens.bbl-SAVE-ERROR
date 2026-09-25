@@ -1,0 +1,87 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{nlm_adhd}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=c14e5247aa6c62f0530b770a763f0490}{%
+           family={{National Library of Medicine}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{c14e5247aa6c62f0530b770a763f0490}
+      \strng{fullhash}{c14e5247aa6c62f0530b770a763f0490}
+      \strng{fullhashraw}{c14e5247aa6c62f0530b770a763f0490}
+      \strng{bibnamehash}{c14e5247aa6c62f0530b770a763f0490}
+      \strng{authorbibnamehash}{c14e5247aa6c62f0530b770a763f0490}
+      \strng{authornamehash}{c14e5247aa6c62f0530b770a763f0490}
+      \strng{authorfullhash}{c14e5247aa6c62f0530b770a763f0490}
+      \strng{authorfullhashraw}{c14e5247aa6c62f0530b770a763f0490}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Attention deficit hyperactivity disorder}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{n.d.}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://medlineplus.gov/attentiondeficithyperactivitydisorder.html
+      \endverb
+      \verb{url}
+      \verb https://medlineplus.gov/attentiondeficithyperactivitydisorder.html
+      \endverb
+    \endentry
+    \entry{apa_adhd}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=ce2c470a69e9b189664512d02dc6f03c}{%
+           family={{American Psychiatric Association}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{fullhash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{fullhashraw}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{bibnamehash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{authorbibnamehash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{authornamehash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{authorfullhash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{authorfullhashraw}{ce2c470a69e9b189664512d02dc6f03c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is {ADHD}?}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{n.d.}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.psychiatry.org/patients-families/adhd/what-is-adhd
+      \endverb
+      \verb{url}
+      \verb https://www.psychiatry.org/patients-families/adhd/what-is-adhd
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
